@@ -1,22 +1,22 @@
 # Primeiros passos com docker e docker-compose
 
-## criando image
+## Criando imagem
 
 docker build -t example .
 
-## rodando a maquina
+## Rodando a maquina
 
 docker run -p 3333:3333 example
 
-## acessando o container
+## Acessando o container
 
 docker exec -it nome_container
 
-## executando em realtime docker-compose
+## Executando em realtime docker-compose
 
 docker-compose up
 
-## executando o docker mesmo apos encerrar a aplicaçao
+## Executando o docker mesmo apos encerrar a aplicaçao
 
 docker-compose up -d
 
